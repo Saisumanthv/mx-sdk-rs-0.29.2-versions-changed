@@ -1,0 +1,18 @@
+[package]
+name = "dharitri-wasm-modules"
+version = "0.4.4"
+edition = "2018"
+
+authors = ["Dharitri Network <contact@dharitri.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/Battula-anil-app-could/dx-sdk-rs-new"
+homepage = "https://dharitri.com/"
+documentation = "https://docs.dharitri.com/"
+description = "Dharitri WebAssembly standard smart contract modules"
+keywords = ["dharitri", "wasm", "webassembly", "blockchain", "contract"]
+categories = ["no-std", "wasm", "cryptography::cryptocurrencies"]
+
+[dependencies.dharitri-wasm]
+version = "0.4.4"
+path = "../dharitri-wasm"

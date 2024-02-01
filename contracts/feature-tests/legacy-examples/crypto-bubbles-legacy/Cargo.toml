@@ -1,0 +1,17 @@
+[package]
+name = "crypto-bubbles-legacy"
+version = "0.0.0"
+authors = ["Andrei Marinica <andrei.marinica@dharitri.com>"]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/crypto_bubbles_legacy.rs"
+
+[dependencies.dharitri-wasm]
+version = "0.4.4"
+path = "../../../../dharitri-wasm"
+
+[dev-dependencies.dharitri-wasm-debug]
+version = "0.4.4"
+path = "../../../../dharitri-wasm-debug"

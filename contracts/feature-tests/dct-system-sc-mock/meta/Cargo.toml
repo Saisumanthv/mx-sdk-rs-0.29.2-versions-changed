@@ -1,0 +1,17 @@
+[package]
+name = "dct-system-sc-mock-meta"
+version = "0.0.0"
+authors = ["Dorin Marian Iancu <dorin.iancu@dharitri.com>"]
+edition = "2018"
+publish = false
+
+[dependencies.dct-system-sc-mock]
+path = ".."
+
+[dependencies.dharitri-wasm]
+version = "0.4.4"
+path = "../../../../dharitri-wasm"
+
+[dependencies.dharitri-wasm-debug]
+version = "0.4.4"
+path = "../../../../dharitri-wasm-debug"
